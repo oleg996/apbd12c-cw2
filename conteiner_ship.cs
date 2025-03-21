@@ -14,7 +14,49 @@ public class conteiner_ship{
         this.speed = speed;
         this.max_conteiners = max_conteiners;
         this.max_load = max_load;
-        
+
     }
+    
+
+    public void load (konteiner k ){
+        if(konteiners.Count + 1 > max_conteiners)
+            throw new Exception("not enough free space");
+        
+        double kmass = k.getMass();
+        foreach(konteiner lk in konteiners){
+            kmass += lk.getMass();
+        }
+        if(kmass > max_load)
+            throw new Exception("overload");
+        
+        konteiners.Add(k);
+
+    }
+
+    public konteiner unload(int i){
+        konteiner k = konteiners[i];
+        konteiners.RemoveAt(i);
+        return k;
+    }
+
+
+
+
+    public override string ToString()
+    {
+        string str = "ship max conteiners:"+max_conteiners+"spped:"+speed+"max load:"+max_load+'\n';
+
+        foreach (konteiner k in konteiners)
+        {
+            str += k.ToString();
+            str+= "\n";
+        }
+        return str;
+    }
+
+
+
+
+
 
 }

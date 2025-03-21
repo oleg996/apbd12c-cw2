@@ -34,7 +34,13 @@ public class konteiner{
         }
     }
     public double getMass(){
-        return mass;
+        return mass + mass_netto;
+    }
+
+
+    public override string ToString()
+    {
+        return "konteiner:"+S_number+" mass"+getMass();
     }
 
 
