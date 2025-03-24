@@ -44,7 +44,7 @@ public class conteiner_ship{
 
     public override string ToString()
     {
-        string str = "ship max conteiners:"+max_conteiners+"spped:"+speed+"max load:"+max_load+'\n';
+        string str = "ship max conteiners:"+max_conteiners+"spped:"+speed+"max load:"+max_load+'\n'+"konteiners\n";
 
         foreach (konteiner k in konteiners)
         {

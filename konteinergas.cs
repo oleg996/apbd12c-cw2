@@ -35,6 +35,6 @@ public class gaskonteiner: konteiner ,notification_int {
 
     public override string ToString()
     {
-        return S_number;
+        return base.ToString()+(dang?"Dangerows!!":"");
     }
 }

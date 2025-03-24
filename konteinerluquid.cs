@@ -30,5 +30,8 @@ public class liquidkonteiner: konteiner ,notification_int {
     {
         Console.WriteLine("WARNING THE CONTEINER "+ S_number + " HAS "+ msg);
     }
-
+    public override string ToString()
+    {
+        return base.ToString()+(dang?"Dangerows!!":"");
+    }
 }

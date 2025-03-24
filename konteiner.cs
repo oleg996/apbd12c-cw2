@@ -40,7 +40,7 @@ public class konteiner{
 
     public override string ToString()
     {
-        return "konteiner:"+S_number+" mass"+getMass();
+        return "konteiner:"+S_number+" mass:"+getMass()+"height:"+height+"depth:"+depth+"maxload:"+max_load;
     }
 
 
