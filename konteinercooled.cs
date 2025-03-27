@@ -14,7 +14,7 @@ public class cooledkonteiner: konteiner {
         
         
         this.max_load = max_load;
-        S_number += "-L-";
+        S_number += "-CA-";
         S_number += konteiner.S_number_g++;
 
         this.product = product;
