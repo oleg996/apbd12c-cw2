@@ -11,22 +11,22 @@ Boolean run = true;
 
 while (run){
     try{
-    Console.WriteLine("E for exit");
-    Console.WriteLine("S for print ship");
-    Console.WriteLine("C for print conteiners");
+    Console.WriteLine("E to exit");
+    Console.WriteLine("S to print ship");
+    Console.WriteLine("C to print conteiners");
 
-    Console.WriteLine("AC for add conteiner");
-    Console.WriteLine("DC for remove conteiner");
+    Console.WriteLine("AC to add conteiner");
+    Console.WriteLine("DC to remove conteiner");
 
-    Console.WriteLine("AS for add ship");
-    Console.WriteLine("DS for remove ship");
+    Console.WriteLine("AS to add ship");
+    Console.WriteLine("DS to remove ship");
 
-    Console.WriteLine("F for fill conteiner");
-    Console.WriteLine("EM for empty conteiner");
+    Console.WriteLine("F to fill conteiner");
+    Console.WriteLine("EM to empty conteiner");
 
 
-    Console.WriteLine("L for load conteiner");
-    Console.WriteLine("U for unload conteiner");
+    Console.WriteLine("L to load conteiner");
+    Console.WriteLine("U to unload conteiner");
 
 
 
